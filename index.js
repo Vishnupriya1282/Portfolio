@@ -9,7 +9,11 @@ const { systemPrompt } = require('./resumeData');
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://vishnupriya-tudu-portfolio.vercel.app',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
 app.use(express.json());
 
 app.post('/api/chat', async (req, res) => {
