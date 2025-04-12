@@ -4,6 +4,7 @@
 
 const resumeData = {
   name: "Vishnupriya Tudu",
+  graduation_year: "2026",
   education: "B.Tech in Mathematics and Computing, IIT Ropar",
   skills: ["JavaScript", "React", "Node.js", "Python", "C", "C++", "Java", "MongoDB", "Express.js"],
   experience: "No professional experience but highly experienced in coding.",
